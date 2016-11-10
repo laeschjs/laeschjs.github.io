@@ -54,13 +54,15 @@ a {
 
 #openingDiv {
     background-image: url("../images/white_bg.jpg");
-    height: 62%;
+    min-height: 62%;
+    height: auto;
     text-align: center;
 }
 
 #philDiv {
     background-image: url("../images/white_bg.jpg");
-    height: 100%;
+    min-height: 100%;
+    height: auto;
     text-align: center;
 }
 
@@ -74,7 +76,8 @@ a {
 
 #aboutDiv {
     background-image: url("../images/white_bg.jpg");
-    height: 80%;
+    min-height: 80%;
+    height: auto;
     text-align: center;
     padding-top: 4%;
 }
