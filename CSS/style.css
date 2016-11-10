@@ -1,0 +1,171 @@
+body, html {
+    height: 100%;
+    font-family: Twentieth Century;
+    color: black;
+}
+
+.ng-scope {
+    height: 100%;
+}
+
+#navDiv {
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    background-color: black;
+}
+
+#navDivInner {
+    display: inline-block;
+    padding: 4px;
+    padding-top: 5px;
+}
+
+a {
+    font-size: 20px;
+}
+
+.parallax {        
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax1 {
+    height: 50%;
+    background-image: url("../images/black_bg.jpg");
+}
+
+.parallax2 {
+    height: 50%;
+    background-image: url("../images/black2_bg.jpg");
+}
+
+.parallax3 {
+    height: 50%;
+    background-image: url("../images/black3_bg.jpg");
+}
+
+.parallax4 {
+    height: 50%;
+    background-image: url("../images/black4_bg.jpg");
+}
+
+#openingDiv {
+    background-image: url("../images/white_bg.jpg");
+    height: 62%;
+    text-align: center;
+}
+
+#philDiv {
+    background-image: url("../images/white_bg.jpg");
+    height: 100%;
+    text-align: center;
+}
+
+#innerPhilDiv {
+    text-align: left;
+    font-size: 24px;
+    max-width: 60%;
+    margin-left: 20%;
+    padding-top: 2%;
+}
+
+#aboutDiv {
+    background-image: url("../images/white_bg.jpg");
+    height: 80%;
+    text-align: center;
+    padding-top: 4%;
+}
+
+.project {
+    background-image: url("../images/white_bg.jpg");
+    height: 70%;
+    text-align: center;
+}
+
+.textOnBg {
+    text-align: center;
+    font-size: 80px;
+    color: darkgrey;
+    margin-left: 15%;
+    max-width: 70%;
+   
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    align-content:center;
+    flex-direction:column; /* column | row */
+}
+
+#welcomeText {
+    max-width: 50%;
+    display: inline-block;
+    margin-left: 8%;
+    text-align: left;
+}
+
+.secondAPara {
+    display: inline-block;
+    text-align: left;
+    margin-left: 2%;
+    max-width: 90%;
+}
+
+.projectPara {
+    display: inline-block;
+    text-align: left;
+    margin-left: 2%;
+    max-width: 65%;
+}
+
+.welcomeInfo {
+    max-width: 80%;
+    margin-left: 17%;
+    font-size: 24px;
+}
+
+.projectInfo {
+    max-width: 85%;
+    margin-left: 7%;
+    font-size: 24px;
+    height: 60%;
+}
+
+#secondAbout {
+    max-width: 55%;
+    display: inline-block;
+    text-align: left;
+    margin-left: 8%;
+}
+
+.picAndDL {
+    width: 400px;
+    display: inline-block;
+    height: 100%;
+    vertical-align: text-bottom;
+}
+
+.projectPic {
+    width: 100%;
+    margin-bottom: 5%;
+}
+
+img {
+    vertical-align: top;
+    width: 250px;
+    border: 2px solid;
+    border-radius: 5%;
+}
+
+h1, h2 {
+    margin: 0;
+    font-size: 40px;
+    padding-top: 60px;
+    padding-bottom: 2%;
+}
+
+.but:hover {
+    background-color: darkgrey;
+}

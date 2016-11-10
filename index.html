@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Joshua Laesch</title>
+    <link rel="stylesheet" href="CSS/bootstrap.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <div ng-app="routingApp" ng-controller="appController">
+        <div id="navDiv">
+            <div id="navDivInner">
+                <ul class="nav nav-danger nav-pills">
+                    <li id="li1" class="active"><a ng-click="changeClass(1)" href="#/home">Home</a></li>
+                    <li id="li2"><a href="#/about" ng-click="changeClass(2)">About</a></li>
+                    <li id="li3"><a ng-click="changeClass(3)" href="#/projects">Projects</a></li>
+                    <li id="li4"><a ng-click="changeClass(4)" href="#/philosophy">Philosophy</a></li>
+                </ul>
+            </div>
+        </div>
+        <ng-view></ng-view>
+    </div>
+    
+    <script type="text/javascript" src="node_modules/angular/angular.min.js"></script>
+    <script type="text/javascript" src="node_modules/angular-route/angular-route.min.js"></script>
+    <script type="text/javascript" src="JS/app.js"></script>
+</body>
+</html>
