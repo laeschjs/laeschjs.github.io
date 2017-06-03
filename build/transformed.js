@@ -9867,7 +9867,7 @@ var Milestone = React.createClass({
 			React.createElement(
 				'div',
 				{ id: this.props.info.name + "collage", className: this.state.img },
-				React.createElement('img', { src: this.props.info.collage_img })
+				React.createElement('img', { id: this.props.info.name + "img", src: this.props.info.collage_img })
 			)
 		);
 	},
@@ -9894,7 +9894,7 @@ var Milestone = React.createClass({
 		}
 	},
 	updateDimensions: function () {
-		$('#all_content').waitForImages(function () {
+		setTimeout(function () {
 			var left = "#" + this.props.info.name + "collage";
 			var right = "#" + this.props.info.name + "message";
 			var left_height = $(left).height();
@@ -9908,7 +9908,7 @@ var Milestone = React.createClass({
 				var pad_top = (right_height - left_height) / 2;
 				$(left).css({ paddingTop: pad_top });
 			}
-		}.bind(this));
+		}.bind(this), 125);
 	},
 	componentDidMount: function () {
 		this.checkState();
@@ -9974,12 +9974,12 @@ var Images = React.createClass({
 		);
 	},
 	getTop: function () {
-		$('#all_content').waitForImages(function () {
+		setTimeout(function () {
 			this.setState({ top_of_map: parseInt($('#all_content').height() / 2, 10) }, this.updateDimensions());
-		}.bind(this));
+		}.bind(this), 125);
 	},
 	updateDimensions: function () {
-		$('#all_content').waitForImages(function () {
+		setTimeout(function () {
 			var calc_width = $('#main_col').width();
 			if (calc_width > 1099) {
 				$('#tesla_img').removeAttr('style');
@@ -10011,7 +10011,7 @@ var Images = React.createClass({
 			var rose_new_left = calc_width / 1.325 + marginLeft + "px";
 			$('#rose_img').css({ top: rose_new_top,
 				left: rose_new_left });
-		}.bind(this));
+		}.bind(this), 125);
 	},
 	componentDidMount: function () {
 		this.getTop();
