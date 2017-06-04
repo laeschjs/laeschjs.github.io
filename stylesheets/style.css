@@ -4,7 +4,7 @@ body, html {
 
 #app {
     height: 100%;
-    font-size: 20px;
+    font-size: 22px;
     font-family: bodoni;
 }
 
@@ -76,23 +76,23 @@ img {
     #tesla_img {
         left: 50%;
         transform: translateX(-366px);
-        top: 79.5%;
+        top: 77%;
     }
 
     #rose_img {
-        top: 85%;
+        top: 82%;
         left: 50%;
         transform: translateX(290px);
     }
 
     #rc_img {
-        top: 70%;
+        top: 67.5%;
         left: 50%;
         transform: translateX(85px);
     }
 
     #home_img {
-        top: 89.5%;
+        top: 86.5%;
         left: 50%;
         transform: translateX(200px);
     }
@@ -163,7 +163,7 @@ img {
 #nav ul li {
     border: 1px solid black;
     border-radius: 5px;
-    background-color: #ddd;
+    background-color: darkgrey;
 }
 
 #nav ul li:hover {
@@ -216,7 +216,7 @@ img {
 
 .textOnBg {    
     text-align: center;
-    font-size: 20px;
+    font-size: 22px;
     color: darkgrey;
     margin-left: 15%;
     max-width: 70%;
