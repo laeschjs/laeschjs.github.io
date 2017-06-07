@@ -9981,34 +9981,27 @@ var Images = React.createClass({
 	updateDimensions: function () {
 		setTimeout(function () {
 			var calc_width = $('#main_col').width();
-			if (calc_width > 1099) {
-				$('#tesla_img').removeAttr('style');
-				$('#rc_img').removeAttr('style');
-				$('#rose_img').removeAttr('style');
-				$('#home_img').removeAttr('style');
-				return;
-			}
 			var calc_height = $('#main_col').height();
 			var top_of_map = this.state.top_of_map;
 			var marginLeft = parseInt($('#main_col').css('marginLeft'));
-			console.log(top_of_map);
-			console.log(calc_height);
 
-			var tesla_new_top = top_of_map + calc_height / 2.65 + "px";
-			$('#tesla_img').css({ top: tesla_new_top });
+			var tesla_new_top = top_of_map + calc_height / 2.6 + "px";
+			var tesla_new_left = calc_width / 6 + marginLeft + "px";
+			$('#tesla_img').css({ top: tesla_new_top,
+				left: tesla_new_left });
 
-			var home_new_top = top_of_map + calc_height / 2.1 + "px";
-			var home_new_left = calc_width / 1.48 + marginLeft + "px";
+			var home_new_top = top_of_map + calc_height / 1.94 + "px";
+			var home_new_left = calc_width / 1.47 + marginLeft + "px";
 			$('#home_img').css({ top: home_new_top,
 				left: home_new_left });
 
-			var rc_new_top = top_of_map + calc_height / 4.3 + "px";
-			var rc_new_left = calc_width / 1.8 + marginLeft + "px";
+			var rc_new_top = top_of_map + calc_height / 4 + "px";
+			var rc_new_left = calc_width / 1.75 + marginLeft + "px";
 			$('#rc_img').css({ top: rc_new_top,
 				left: rc_new_left });
 
-			var rose_new_top = top_of_map + calc_height / 2.35 + "px";
-			var rose_new_left = calc_width / 1.325 + marginLeft + "px";
+			var rose_new_top = top_of_map + calc_height / 2.2 + "px";
+			var rose_new_left = calc_width / 1.31 + marginLeft + "px";
 			$('#rose_img').css({ top: rose_new_top,
 				left: rose_new_left });
 		}.bind(this), 125);
