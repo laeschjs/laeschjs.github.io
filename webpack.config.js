@@ -9,11 +9,18 @@ module.exports = {
 	module: {
 		loaders: [
 			{
-				test: /\.js$/,
+				test: /\.jsx?$/,
 				exclude: /node_modules/,
-				loader: 'babel-loader'
+				loader: 'babel-loader',
+				query: {
+					presets: ['es2015', 'react']
+				}
 			}
 		]
+	},
+	resolve: {
+		extensions: ['.js', '.jsx'],
+		modules: ['core', 'node_modules']
 	},
 	output: {
 		filename: 'transformed.js',

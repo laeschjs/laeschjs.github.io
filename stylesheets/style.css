@@ -13,7 +13,7 @@ body, html {
     height: 100%;
 }
 
-#main_col {
+#map_cali_midwest {
     width: 100%;
     max-width: 1100px;
     margin-left: auto;
@@ -170,7 +170,7 @@ img {
     width: 90%;
 }
 
-.parallax {        
+.parallax {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -183,13 +183,13 @@ img {
     background-image: url("../images/black_bg.jpg");
 }
 
-.textOnBg {    
+.textOnBg {
     text-align: center;
     font-size: 22px;
     color: darkgrey;
     margin-left: 15%;
     max-width: 70%;
-   
+
     height: 100%;
     display: flex;
     justify-content:center;
