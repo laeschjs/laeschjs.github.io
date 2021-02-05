@@ -1,5 +1,4 @@
 import React, { Component, Fragment } from 'react';
-import { Element } from 'react-scroll';
 import { Milestone } from './Milestone';
 import { Map } from './Map';
 
@@ -25,9 +24,6 @@ export default class App extends Component {
 				<Map />
 				{milestones}
 				<div className="parallax parallax1">
-					<Element name='my_target'>
-						this is the target
-					</Element>
 				</div>
 			</div>
 		);
