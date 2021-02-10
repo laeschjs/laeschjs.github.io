@@ -15,7 +15,6 @@ body, html {
 
 #map_cali_midwest {
     width: 100%;
-    max-width: 1100px;
     margin-left: auto;
     margin-right: auto;
     top: 50%;
@@ -23,8 +22,8 @@ body, html {
 }
 
 .my_thumbnail {
-    width: 70px;
-    height: 70px;
+    width: 5%;
+    height: auto;
     z-index: 1;
     padding: 10px;
     position: absolute;
