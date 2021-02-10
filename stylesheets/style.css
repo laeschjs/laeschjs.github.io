@@ -21,6 +21,11 @@ body, html {
     display: block;
 }
 
+img {
+    width: 100%;
+    height: 100%;
+}
+
 .my_thumbnail {
     width: 5%;
     height: auto;
@@ -30,20 +35,7 @@ body, html {
     overflow: hidden;
     background-color: rgba(0,0,0,0);
     border-color: rgba(0,0,0,0);
-}
 
-.image {
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0);
-}
-
-img {
-    width: 100%;
-    height: 100%;
-}
-
-.image img {
     -webkit-transition: all 1s ease; /* Safari and Chrome */
     -moz-transition: all 1s ease; /* Firefox */
     -ms-transition: all 1s ease; /* IE 9 */
@@ -51,67 +43,13 @@ img {
     transition: all 1s ease;
 }
 
-.image:hover img {
+.my_thumbnail:hover {
     -webkit-transform:scale(1.4); /* Safari and Chrome */
     -moz-transform:scale(1.25); /* Firefox */
     -ms-transform:scale(1.25); /* IE 9 */
     -o-transform:scale(1.25); /* Opera */
     transform:scale(1.4);
     cursor: pointer;
-}
-
-#rose_img {
-    width: 84px;
-    height: 84px;
-    top: 50%;
-}
-
-.section {
-    width: 100%;
-    min-height: 50%;
-    background-image: url("../images/white_bg.jpg");
-}
-
-.section:after {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-#tesla_header {
-    width: 30%;
-    max-width: 550px;
-    padding-top: 30px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#rc_header {
-    width: 30%;
-    max-width: 550px;
-    padding-top: 30px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#rose_header {
-    width: 40%;
-    max-width: 650px;
-    padding-top: 30px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-#home_header {
-    width: 40%;
-    max-width: 650px;
-    padding-top: 30px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
 
 #nav {
@@ -138,46 +76,12 @@ img {
     cursor: pointer;
 }
 
-.left {
-    width: 49%;
-    text-align: center;
-    float: left;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.left img {
-    display: inline-block;
-    max-width: 600px;
-}
-
-.right {
-    width: calc(49% - 60px);
-    float: right;
-    margin-right: 30px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-}
-
-.bottom {
-    max-width: 400px;
-    margin: 30px auto;
-}
-
-.top {
-    margin: 30px auto;
-    width: 90%;
-}
-
 .parallax {
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 
-}
-
-.parallax1 {
     height: 50%;
     background-image: url("../images/black_bg.jpg");
 }

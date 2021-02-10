@@ -7,14 +7,14 @@ export default class App extends Component {
 		const milestones = ['tesla', 'rc', 'rose', 'home'].map((milestone) => {
 			return (
 				<Fragment>
-					<div className="parallax parallax1" />
+					<div className="parallax" />
 					<Milestone name={milestone} />
 				</Fragment>
 			)
 		});
 		return (
 			<div id="all_content">
-				<div className="parallax parallax1">
+				<div className="parallax">
 					<p className="textOnBg">
 						<span id="big">Joshua Laesch</span>
 						<br />
@@ -23,7 +23,7 @@ export default class App extends Component {
 				</div>
 				<Map />
 				{milestones}
-				<div className="parallax parallax1">
+				<div className="parallax">
 				</div>
 			</div>
 		);
