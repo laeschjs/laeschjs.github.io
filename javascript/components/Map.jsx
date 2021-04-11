@@ -5,6 +5,9 @@ export const Map = () => {
   return (
     <div style={{ position: 'relative' }}>
       <img id='map_cali_midwest' src='./images/cali_midwest.png' />
+      <Link to='target_appfolio' spy={true} smooth={true} duration={1000}>
+        <img className='my_thumbnail' style={{ top: '69%', left: '16%' }} src='./images/appfolio_square.png' />
+      </Link>
       <Link to='target_epic' spy={true} smooth={true} duration={1000}>
         <img className='my_thumbnail' style={{ top: '34%', left: '69%' }} src='./images/epic.jpeg' />
       </Link>

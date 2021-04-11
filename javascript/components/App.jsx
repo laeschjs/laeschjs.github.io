@@ -6,7 +6,7 @@ import { NavBar } from './NavBar';
 
 export default class App extends Component {
 	render(){
-		const milestones = ['epic', 'tesla', 'rc', 'rose', 'home'].map((milestone) => {
+		const milestones = ['appfolio', 'epic', 'tesla', 'rc', 'rose', 'home'].map((milestone) => {
 			return (
 				<Fragment>
 					<div className="parallax" />

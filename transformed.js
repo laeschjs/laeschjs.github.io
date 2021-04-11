@@ -4954,6 +4954,8 @@ var home_message = exports.home_message = "My journey begins here.  Home.  My fa
 
 var epic_message = exports.epic_message = "Epic makes software for hospitals, doctor's offices, plus so many more health care facilities. Their campus is in Madison, WI and they have dedicated to making it a magical place. Whether it is their wizarding, storybook, farm, or any other campus, it is definitely a sight to see. I was on the team that made features for Social Care workers. I learned a lot about an industry I had no prior experience in. Also, their server code was in a programming language no one uses anymore (M) and the frontend was in .NET. Epic believed in getting the developers time shadowing their users to learn pain points first hand. The most significant of these trips was a 2 week trip to install our app for a hospital in Finland! That was only my second time ever out of the country. While my co-workers and the campus was great, I quickly learned the programming, business practices, and winters were not for me. So after a year of employment I began looking for other opportunities.";
 
+var appfolio_message = exports.appfolio_message = "Appfolio makes a web tool for property managers to use to help them manage their properties. Appfolio believes AI is the next big technological gain to help push business forward. As such, I was on a team looking to drive the AI initiative: Smart Maintenance. The end goal was to have a bot text with tenants to discover/triage what is wrong and dispatch the right person to solve the maintenance problem. More specifically, my team worked on the rules that property managers would define to help our operators (eventually the bot) know how to handle a work order. For example for different issues they can set the urgency and which vendor to dispatch. I enjoyed working at Appfolio due to their culture and more modern development practices than my previous job (React, Ruby on Rails, CI/CD, hackdays, retros). Due to COVID, a lot of my time was working remotely back at home in Illinois, but the times I lived in Santa Barbara were a blast with both beaches and mountains. ";
+
 /***/ }),
 /* 101 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -8700,7 +8702,7 @@ var App = function (_Component) {
 	_createClass(App, [{
 		key: 'render',
 		value: function render() {
-			var milestones = ['epic', 'tesla', 'rc', 'rose', 'home'].map(function (milestone) {
+			var milestones = ['appfolio', 'epic', 'tesla', 'rc', 'rose', 'home'].map(function (milestone) {
 				return _react2.default.createElement(
 					_react.Fragment,
 					null,
@@ -10592,6 +10594,11 @@ var Map = exports.Map = function Map() {
     'div',
     { style: { position: 'relative' } },
     _react2.default.createElement('img', { id: 'map_cali_midwest', src: './images/cali_midwest.png' }),
+    _react2.default.createElement(
+      _reactScroll.Link,
+      { to: 'target_appfolio', spy: true, smooth: true, duration: 1000 },
+      _react2.default.createElement('img', { className: 'my_thumbnail', style: { top: '69%', left: '16%' }, src: './images/appfolio_square.png' })
+    ),
     _react2.default.createElement(
       _reactScroll.Link,
       { to: 'target_epic', spy: true, smooth: true, duration: 1000 },
