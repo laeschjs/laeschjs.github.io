@@ -10663,10 +10663,10 @@ var Milestone = exports.Milestone = function Milestone(_ref) {
     { name: 'target_' + name },
     _react2.default.createElement(
       'div',
-      { key: name, className: 'py-4', style: { backgroundImage: 'url(./images/white_bg.jpg)' } },
+      { key: name, className: 'py-4 container-fluid', style: { backgroundImage: 'url(./images/white_bg.jpg)' } },
       _react2.default.createElement(
         _reactBootstrap.Row,
-        { className: 'mb-4' },
+        null,
         _react2.default.createElement(
           _reactBootstrap.Col,
           { sm: { span: 4, offset: 4 } },
@@ -10675,15 +10675,15 @@ var Milestone = exports.Milestone = function Milestone(_ref) {
       ),
       _react2.default.createElement(
         _reactBootstrap.Row,
-        { className: 'mb-4' },
+        null,
         _react2.default.createElement(
           _reactBootstrap.Col,
-          null,
+          { xs: { span: 10, offset: 1 }, xl: { offset: 0 }, className: 'mt-4' },
           _react2.default.createElement('img', { style: { height: 'auto' }, src: './images/' + name + '_collage.png' })
         ),
         _react2.default.createElement(
           _reactBootstrap.Col,
-          null,
+          { xs: { span: 10, offset: 1 }, xl: { offset: 0 }, className: 'mt-4' },
           Messages[name + '_message']
         )
       )
