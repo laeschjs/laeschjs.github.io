@@ -25,14 +25,14 @@ export const rose_message = `Rose Hulman is a small private engineering college 
   Also the topic that has gotten me the most excited was actually a math class: Deep Learning.  I am glad to be rid of the homework and tests but \
   miss my friends and the college atmosphere.`;
 
-export const home_message = `My journey begins here.  Home.  My family and friends who have given me my character, morals, and beliefs are and \
-  always will be my home. The place that has given me my rock solid foundation of faith in Jesus Christ is my home.  The people I know I can \
-  always fall back on if plans go awry is my home.  For 18 years, plus many transitions from the previous milestones you have read about, I \
-  have called Greenville, IL my home.  It is a small rural town 1 hour east of St. Louis.  It is where I became the man I am today.  I gained \
-  a strong work ethic by growing up/working on a dairy farm.  I developed a love of sports by playing and watching almost every single day. \
-  I fostered a love for a plethora of different kinds of music whether it be country from the radio, hymns from church, today's hits from \
-  social activities, or rap from locker rooms.  My home still influences me to this day by my desire to live up to the standards set on me. \
-  This place/people will always have a special place in my heart.`;
+export const growing_up_message = `For 18 years, plus many transitions from the previous milestones you have read about, I have called \
+  Greenville, IL my home.  It is a small rural town 1 hour east of St. Louis.  It is where I became the man I am today. I grew a rock solid \
+  foundation of faith in Jesus Christ there. My family and friends that live there helped shape my character, morals, and beliefs. I gained a \
+  strong work ethic by growing up/working on a dairy farm.  I developed a love of sports by playing and watching almost every single day. I \
+  fostered a love for a plethora of different kinds of music whether it be country from the radio, hymns from church, today's hits from social \
+  activities, or rap from locker rooms.  My childhood home still influences me to this day by my desire to live up to the standards set on me. \
+  Even though I haven't lived there in a while, I like to think deep down I am still a farmboy from the MidWest. This place/people will always \
+  have a special place in my heart.`;
 
 export const epic_message = `Epic makes software for hospitals, doctor's offices, plus so many more health care facilities. Their campus is \
   in Madison, WI and they have dedicated to making it a magical place. Whether it is their wizarding, storybook, farm, or any other campus, it \
@@ -51,3 +51,12 @@ export const appfolio_message = `Appfolio makes a web tool for property managers
   dispatch. I enjoyed working at Appfolio due to their culture and more modern development practices than my previous job (React, Ruby on \
   Rails, CI/CD, hackdays, retros). Due to COVID, a lot of my time was working remotely back at home in Illinois, but the times I lived in \
   Santa Barbara were a blast with both beaches and mountains.`;
+
+export const married_life_message = `Florida has been the place of great choices. I followed my girlfriend-at-the-time here as she pursued her \
+  dream of working for Disney. After a year of dating, I proposed to her in front of Magic Kingdom's castle. A year after that, we got married \
+  with a small ceremony at Disney's Yacht and Beach Club. Following that, we honeymooned in Maui and it was the best trip ever. A few days after \
+  we got back, we headed to Illinois to have the bigger reception with all of our family and friends. A few months after that, our new construction \
+  house was finished and we moved in. Our big house was feeling a little empty for just the two of us, so we got a dog and named him Woody. \
+  We have been married for a little over a year now and I am loving every second of it. We fill our days going out to the parks, restaurants, \
+  and the beach. We also love to stay in and play Nintendo Switch, watch movies, cook together, and play board games. I am so grateful for my \
+  wife and the life we are building together here in Florida.`;
